@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice PCL/03013/2023</title>
+    <style>
+    @font-face { font-family: kitfont; src: url('1979 Dot Matrix Regular.TTF'); }
+      html
+        {
+            margin:0;
+            padding:0;
+            font-style: kitfont;
+            font-family:Arial;
+            font-size:9pt;
+			font-weignt:bold;
+            color:#000;
+        }
+        body
+        {
+            width:100%;
+            font-family:Arial;
+            font-style: kitfont;
+            font-size:9pt;
+			font-weight:bold;
+            margin:0;
+            padding:0;
+        }
+        p
+        {
+            margin:0;
+            padding:0;
+        }
+        .page
+        {
+            width: 210mm;
+            height: 145mm;
+            page-break-after:always;
+        }
+        #header-tabel tr {
+            padding: 0px;
+        }
+        #tabel-laporan {
+            border-spacing: -1px;
+            padding: 0px !important;
+        }
+        #tabel-laporan th{
+            /*
+            border-top: solid 1px #000;
+            border-bottom: solid 1px #000;
+            */
+           border : solid 1px #000;
+            margin: 0px;
+            height: auto;
+        }
+        #tabel-laporan td{
+            border : solid 1px #000;
+            margin: 0px;
+            height: auto;
+        }
+        #tabel-laporan {
+          border-bottom:1px solid #000 !important;
+        }
+        .isi td{
+          border-top:0px !important;
+          border-bottom:0px !important;
+        }
+		 #grey
+        {
+             background:#eee;
+        }
+        #footer
+        {
+            /*width:180mm;*/
+            margin:0 15mm;
+            padding-bottom:3mm;
+        }
+        #footer table
+        {
+            width:100%;
+            border-left: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+            background:#eee;
+            border-spacing:0;
+            border-collapse: collapse;
+        }
+        #footer table td
+        {
+            width:25%;
+            text-align:center;
+            font-size:9pt;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        img.resize {
+          max-width:12%;
+          max-height:12%;
+        }
+		.pagebreak
+		{
+		width:100% ;
+		page-break-after: always;
+		margin-bottom:10px;
+		}
+    </style>
+</head>
+<body>
+
+		<table border="0" width="100%">
+		<tr>
+			 <td style="width: 18%; font-size:8pt !important;vertical-align:top"><b>Kepada Yth</b></td>
+			 <td style="width: 1%; font-size:8pt !important;vertical-align:top"><b>:</b></td>
+			 <td style="width: 31%; font-size:8pt !important;vertical-align:top"><b>INDAH KIAT PULP AND PAPER, PT</b></td>
+			 <td style="width: 18%; font-size:8pt !important;vertical-align:top"><b>Faktur No.</b></td>
+			 <td style="width: 1%; font-size:8pt !important;vertical-align:top"><b>:</b></td>
+			 <td style="width: 31%; font-size:8pt !important;vertical-align:top"><b></b></td>
+		</tr>
+		<tr>
+			 <td style="font-size:8pt !important;vertical-align:top" rowspan="3"><b>Alamat</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top" rowspan="3"><b>:</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top" rowspan="3"><b></b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>F. Pajak No.</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>:</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b></b></td>
+
+		</tr>
+		<tr>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>No PO.</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>:</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>PRW-49965356</b></td>
+
+		</tr>
+		<tr>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>Payment Term</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>:</b></td>
+			 <td style="font-size:8pt !important;vertical-align:top"><b>0</b></td>
+		</tr>
+		</table>
+		  <table valign="top" width="100%" id="tabel-laporan" style="!important; padding: 0 !important;">
+			<tr id="grey" height="100px">
+			<b>
+			<th width="7%"  align="center" valign="top">NO</th>
+			<th width="47%" align="center">NAMA BARANG</th>
+			<th width="10%" align="center">QUANTITY</th>
+			<th width="18%" align="center" colspan='2'>HARGA SATUAN</th>
+			<th width="18%" align="center" colspan='2'>JUMLAH</th>
+			</b>
+			</tr>
+		  <!--</table>
+	<table valign="top" width="100%" id="tabel-laporan" style="!important; padding: 0 !important;">-->
+		<tr><th align='center' valign='top'>1</th><td valign='top' >COLAR</td><th valign='top' align='center'>6.00</th><th valign='top' align='left' style='border-color: black white black black;'>&nbsp;&nbsp;IDR</th><th valign='top' align='right' style='border-color: black black black white;'>1,842,883</th><th valign='top' align='left' style='border-color: black white black black;'>&nbsp;&nbsp;IDR</th><th valign='top' align='right' style='border-color: black black black white;'>11,057,298</th></tr>    </table>
+     <hr>
+        
+        <table border="0" style="border-spacing:-1px;width:100%">
+          <tr>
+            <td id="grey" colspan="2" style="text-align:left;border:1px solid #000;border-spacing:1px !important">
+              <i>Terbilang : <strong># Sebelas Juta Lima Puluh Tujuh Ribu Dua Ratus Sembilan Puluh Delapan&nbsp;Rupiah#</strong></i>
+            </td>
+            <th rowspan="3" style="text-align:left;vertical-align:top;padding:0 0 0 1%">
+              SUBTOTAL <br>TOTAL<br>
+            </th>
+			 <th rowspan="3" style="text-align:right;vertical-align:top;padding:0 0 0 1%">
+              : IDR <br>: IDR <br>
+            </th>
+            <th rowspan="3" style="text-align:right;vertical-align:top;padding:0 0 0 1%">
+              11,057,298<br>
+			  11,057,298<br>
+            </th>
+          </tr>
+          <tr>
+            <th width="35%">
+
+            </th>
+            <th width="35%">
+
+            </th>
+
+          </tr>
+          <tr>
+            <th>
+            </th>
+            <td width="30%" style="text-align: center;color:#fff">
+            i<br>
+            i<br>
+            i<br>
+              <!--<img src="http://120.29.159.11:8080/assets/images/ori_logo.jpg" style="height: 50px;width: auto;display:none">-->
+            </td>
+          </tr>
+        </table>
+
+       <br>
+	   <br>
+        <table border='0' width='100%' cellpadding='0'><tr><td width='75%' style='vertical-align:top;'><table class='catatan' border='0' width='100%' cellpadding='2'><tr><td><b>CATATAN :</b><br>
+										 Pembayaran dengan Cheque/Giro dianggap sah, setelah Cheque/Giro dapat diuangkan(Clearing).<br>
+										 Pembayaran harap di transfer full amount ke:<br>
+										 <b>PT ORI POLYTEC COMPOSITES<br>
+										 BCA WISMA ASIA USD 084.056.0333 IDR 084.056.1313<br><br>
+										 * Denda 0,1%/hari, max 5% dihitung sejak tanggal jatuh tempo pembayaran<br>
+										 * Untuk tagihan USD yang akan dibayarkan dalam rupiah, harap konfirmasi kurs dengan finance kami
+										</b>
+									</td></tr></table></td><td width='12%'></td><td width='13%' style='vertical-align:top;'><table class='sign' width='100%' cellpadding='2'><tr><td width='40%'>Bekasi, 05 January 2023</td></tr><tr><td style='height:70px;'></td></tr><tr><td><b>__________________________</b></td></tr></table></td></tr></table>
+
+</body>
+</html>
